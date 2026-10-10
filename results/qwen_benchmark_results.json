@@ -1,0 +1,54 @@
+{
+  "model": "qwen2.5:7b",
+  "author": "Aryan Goel",
+  "experiment_1_correctness": {
+    "overall_accuracy": 71.33,
+    "overall_correct_ratio": "107/150",
+    "supported_accuracy": 72.0,
+    "supported_correct_ratio": "54/75",
+    "refuted_accuracy": 70.67,
+    "refuted_correct_ratio": "53/75",
+    "predicted_nei": "4/150",
+    "inference_failures": 0,
+    "invalid_outputs": 0
+  },
+  "experiment_2_stability": {
+    "exact_5_5_consistency": 95.33,
+    "exact_5_5_ratio": "143/150",
+    "mean_modal_agreement": 98.93,
+    "stable_correct_cases": 105,
+    "stable_wrong_cases": 38,
+    "unstable_cases": 7,
+    "mean_accuracy_across_runs": 71.6,
+    "accuracy_range": "70.67% - 73.33%"
+  },
+  "experiment_3_robustness": {
+    "order_reversal": {
+      "eligible_cases": 6,
+      "invariant_predictions": "5/6 = 83.33%",
+      "changed_predictions": "1/6"
+    },
+    "distractor": {
+      "invariant_predictions": "129/150 = 86.0%",
+      "predictions_changed": "21/150 = 14.0%",
+      "control_accuracy": "71.33%",
+      "distractor_accuracy": "67.33%",
+      "accuracy_change": "-4.0 percentage points",
+      "harmful_flips": 13,
+      "nei_count": "4 -> 5",
+      "definite_to_nei": "4 cases"
+    }
+  },
+  "experiment_4_sensitivity": {
+    "contrastive_pairs": 100,
+    "total_model_calls": 200,
+    "any_verdict_flip": "56/100 = 56.0%",
+    "correct_sensitivity": "48/100 = 48.0%",
+    "incorrect_flips": 8,
+    "support_side_accuracy": "69.0%",
+    "refute_side_accuracy": "76.0%",
+    "overall_row_accuracy": "72.5%",
+    "pairs_with_nei_on_either_side": "9.0%",
+    "nei_on_refute_evidence": "8/100"
+  }
+}

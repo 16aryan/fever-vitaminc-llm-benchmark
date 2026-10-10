@@ -1,0 +1,19 @@
+# Python Virtual Environments
+.venv/
+env/
+venv/
+
+# Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Large Raw Datasets (reproducible via README download instructions)
+data/fever/shared_task_dev.jsonl
+data/vitaminc/dev.jsonl

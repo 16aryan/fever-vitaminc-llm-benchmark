@@ -1,0 +1,48 @@
+{
+  "project_name": "fever-benchmark",
+  "author": "Aryan Goel",
+  "random_seed": 42,
+  "sample_per_class": 10,
+  "top_k_sentences": 5,
+  "ollama_url": "http://localhost:11434/api/chat",
+  "wikipedia_api": "https://en.wikipedia.org/w/api.php",
+  "temperature": 0.0,
+  "models": [
+    "qwen2.5:7b",
+    "llama3.1:8b"
+  ],
+  "labels": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "datasets": {
+    "fever": {
+      "path": "data/fever/shared_task_dev.jsonl",
+      "format": "jsonl",
+      "claim_field": "claim",
+      "label_field": "label",
+      "id_field": "id",
+      "has_gold_evidence_text": false,
+      "modes": ["claim_only", "retrieved_evidence"]
+    },
+    "vitaminc": {
+      "path": "data/vitaminc/dev.jsonl",
+      "format": "jsonl",
+      "claim_field": "claim",
+      "label_field": "label",
+      "id_field": "unique_id",
+      "evidence_field": "evidence",
+      "has_gold_evidence_text": true,
+      "modes": ["claim_only", "gold_evidence", "retrieved_evidence"]
+    }
+  },
+  "paths": {
+    "sample_manifest": "data/sample_manifest.csv",
+    "wiki_cache": "data/wiki_cache.json",
+    "predictions": "results/predictions.csv",
+    "metrics": "results/metrics.csv",
+    "error_analysis": "results/error_analysis.csv",
+    "figures_dir": "results/figures"
+  }
+}

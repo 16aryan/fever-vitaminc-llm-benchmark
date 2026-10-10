@@ -1,0 +1,481 @@
+id,claim,gold_label,model,mode,prediction,correct,latency_seconds,retrieved_evidence,retrieval_error,reason,raw_response,error
+164991,Polar bears depend on the ocean as their means of travel.,NOT ENOUGH INFO,qwen2.5:7b,claim_only,SUPPORTS,False,6.901,"[{""title"": ""Ocean"", ""sentence"": ""Ocean temperatures depend on the amount of solar radiation reaching the ocean surface."", ""similarity"": 0.1316}, {""title"": ""Polar bear"", ""sentence"": ""Polar bears travel in response to changes in ice cover throughout the year."", ""similarity"": 0.1301}, {""title"": ""Polar bear"", ""sentence"": ""See also 2011 Svalbard polar bear attack International Polar Bear Day List of individual bears – includes individual captive polar bears Polar Bears International – conservation organization Polar Bear Shores – an exhibit featuring polar bears at Sea World in Australia Notes References Bibliography External links Polar Bears International website ARKive—images and movies of the polar bear (Ursus maritimus)"", ""similarity"": 0.0996}, {""title"": ""Polar bear"", ""sentence"": ""Polar bears were sometimes killed in their dens."", ""similarity"": 0.0901}, {""title"": ""Polar bear"", ""sentence"": ""Polar bears have also been filmed for cinema."", ""similarity"": 0.0814}]",,"Polar bears use sea ice as a platform for hunting seals, which is their primary food source. Since sea ice is formed on the ocean, polar bears do indeed depend on the ocean for travel and hunting, which is a form of travel for them.","{
+  ""label"": ""SUPPORTS"",
+  ""reason"": ""Polar bears use sea ice as a platform for hunting seals, which is their primary food source. Since sea ice is formed on the ocean, polar bears do indeed depend on the ocean for travel and hunting, which is a form of travel for them.""
+}",
+80919,Match Point has been compared to Blue Jasmine.,NOT ENOUGH INFO,qwen2.5:7b,claim_only,NOT ENOUGH INFO,True,2.12,"[{""title"": ""Woody Allen"", ""sentence"": ""Allen has called it one of his three best films, with Stardust Memories and Match Point."", ""similarity"": 0.2587}, {""title"": ""Woody Allen"", ""sentence"": ""Owen Gleiberman of Variety called it \""his best since Blue Jasmine\""."", ""similarity"": 0.1981}, {""title"": ""Woody Allen"", ""sentence"": ""They include Interiors (1978), Stardust Memories (1980), Zelig (1983), Broadway Danny Rose (1984), The Purple Rose of Cairo (1985), Radio Days (1987), Husbands and Wives (1992), Bullets Over Broadway (1994), Deconstructing Harry (1997), Match Point (2005), Vicky Cristina Barcelona (2008), Midnight in Paris (2011), and Blue Jasmine (2013)."", ""similarity"": 0.17}, {""title"": ""Woody Allen"", ""sentence"": ""In Match Point Allen shifts focus from the intellectual upper class of New York to the moneyed upper class of London."", ""similarity"": 0.1551}, {""title"": ""Woody Allen"", ""sentence"": ""It goes down easily, but I have to say it's interesting less for what it is than for how it is.\"" Allen's next film, Blue Jasmine, debuted in July 2013."", ""similarity"": 0.1496}]",,"The provided evidence does not contain any information about comparisons between Match Point and Blue Jasmine, making it impossible to determine the validity of the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The provided evidence does not contain any information about comparisons between Match Point and Blue Jasmine, making it impossible to determine the validity of the claim.""
+}",
+185787,The latest ceremony of the Logie Awards was broadcast live on the American Nine Network.,NOT ENOUGH INFO,qwen2.5:7b,claim_only,NOT ENOUGH INFO,True,2.391,"[{""title"": ""Seven Network"", ""sentence"": ""Commensurate with the American network's own slump, Seven had not found success with an NBC prime time series since 2007."", ""similarity"": 0.1131}, {""title"": ""Seven Network"", ""sentence"": ""Slogans Seven Network's TV ad campaigns have often followed NBC due to Seven's historical ties with the American network, but has occasionally used branding from fellow US networks ABC and FOX."", ""similarity"": 0.0857}, {""title"": ""Seven Network"", ""sentence"": ""HSV-7 began its relationship with the Victorian Football League (now the Australian Football League) in April 1957, when the station broadcast the first live Australian rules football match."", ""similarity"": 0.0824}, {""title"": ""Seven Network"", ""sentence"": ""Sunrise, The Front Bar, The Morning Show, TV Week Logie Awards; factual programming e.g.The Force, Border Security, Highway Patrol, Crime Investigation Australia, Beach Cops, Surveillance Oz and Gold Coast Medical; and reality, includingAustralian Idol, My Kitchen Rules, The Farmer Wants a Wife, SAS Australia, The Voice Australia, Dancing with the Stars Australia, Dream Home, Made in Bondi, First Dates, Stranded on Honeymoon Island."", ""similarity"": 0.0781}, {""title"": ""Seven Network"", ""sentence"": ""Seven Network's coverage of the Tokyo 2020 Summer Olympic Games saw them win three awards (gold, silver and bronze) at the International Olympic Committee's coveted Golden Rings Awards."", ""similarity"": 0.0742}]",,"The evidence provided does not contain any information about the broadcast details of the latest Logie Awards ceremony, thus it is not sufficient to determine whether the claim is true or false.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information about the broadcast details of the latest Logie Awards ceremony, thus it is not sufficient to determine whether the claim is true or false.""
+}",
+157646,"Diana, Princess of Wales's father inherited the title of professor emeritus.",NOT ENOUGH INFO,qwen2.5:7b,claim_only,NOT ENOUGH INFO,True,2.695,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Diana%2C+Princess+of+Wales%27s+father+inherited+the+title+of+professor+emeritus.&srlimit=3&format=json,"The evidence provided does not contain any information about Diana, Princess of Wales's father inheriting the title of professor emeritus. Therefore, there is not enough information to verify or refute the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information about Diana, Princess of Wales's father inheriting the title of professor emeritus. Therefore, there is not enough information to verify or refute the claim.""
+}",
+107687,Ten matches were won at SummerSlam.,NOT ENOUGH INFO,qwen2.5:7b,claim_only,NOT ENOUGH INFO,True,2.251,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Ten+matches+were+won+at+SummerSlam.&srlimit=3&format=json,"The provided evidence does not contain any information about the number of matches won at SummerSlam, thus it is not possible to verify or refute the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The provided evidence does not contain any information about the number of matches won at SummerSlam, thus it is not possible to verify or refute the claim.""
+}",
+22003,The Maltese language is an official language of the European Union.,NOT ENOUGH INFO,qwen2.5:7b,claim_only,NOT ENOUGH INFO,True,2.522,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=The+Maltese+language+is+an+official+language+of+the+European+Union.&srlimit=3&format=json,"The evidence provided does not contain any information about the official languages of the European Union, thus it is not possible to determine the status of the Maltese language based on the given information.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information about the official languages of the European Union, thus it is not possible to determine the status of the Maltese language based on the given information.""
+}",
+34540,James VI and I began the British colonization of Africa.,NOT ENOUGH INFO,qwen2.5:7b,claim_only,REFUTES,False,4.715,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=James+VI+and+I+began+the+British+colonization+of+Africa.&srlimit=3&format=json,"James VI and I (James I of England and James VI of Scotland) reigned from 1603 to 1625. The British colonization of Africa began much earlier, with the establishment of the Bristol Company in 1487 and the founding of the first English settlement in Jamestown, Virginia, in 1607. Therefore, the claim that James VI and I began the British colonization of Africa is not supported by historical facts.","{
+  ""label"": ""REFUTES"",
+  ""reason"": ""James VI and I (James I of England and James VI of Scotland) reigned from 1603 to 1625. The British colonization of Africa began much earlier, with the establishment of the Bristol Company in 1487 and the founding of the first English settlement in Jamestown, Virginia, in 1607. Therefore, the claim that James VI and I began the British colonization of Africa is not supported by historical facts.""
+}",
+200294,The screenplay for Natural Born Killers was heavily revised by writer and director Oliver Stone.,NOT ENOUGH INFO,qwen2.5:7b,claim_only,NOT ENOUGH INFO,True,2.509,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=The+screenplay+for+Natural+Born+Killers+was+heavily+revised+by+writer+and+director+Oliver+Stone.&srlimit=3&format=json,"The provided evidence does not contain any information about the revisions made to the screenplay for Natural Born Killers by Oliver Stone. Therefore, there is not enough information to support or refute the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The provided evidence does not contain any information about the revisions made to the screenplay for Natural Born Killers by Oliver Stone. Therefore, there is not enough information to support or refute the claim.""
+}",
+161128,"Kesha was born on March 1st, 1987 in a Pasadena, California.",NOT ENOUGH INFO,qwen2.5:7b,claim_only,NOT ENOUGH INFO,True,2.413,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Kesha+was+born+on+March+1st%2C+1987+in+a+Pasadena%2C+California.&srlimit=3&format=json,"The provided evidence does not contain any information about Kesha's birth date or place, thus it is not possible to verify or refute the claim based on the given data.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The provided evidence does not contain any information about Kesha's birth date or place, thus it is not possible to verify or refute the claim based on the given data.""
+}",
+220281,Bullitt is an English drama and thriller from 1968.,NOT ENOUGH INFO,qwen2.5:7b,claim_only,NOT ENOUGH INFO,True,2.312,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Bullitt+is+an+English+drama+and+thriller+from+1968.&srlimit=3&format=json,"The evidence provided does not contain any information about the film 'Bullitt', its genre, or its release year, making it impossible to verify the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information about the film 'Bullitt', its genre, or its release year, making it impossible to verify the claim.""
+}",
+103111,The Winds of Winter is a grave digger.,REFUTES,qwen2.5:7b,claim_only,NOT ENOUGH INFO,False,2.888,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=The+Winds+of+Winter+is+a+grave+digger.&srlimit=3&format=json,"The evidence provided does not contain any information about the identity of the character 'The Winds of Winter' from the Game of Thrones series. Without additional context, it is not possible to determine if this claim is true or false.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information about the identity of the character 'The Winds of Winter' from the Game of Thrones series. Without additional context, it is not possible to determine if this claim is true or false.""
+}",
+77043,P.S I Love You (film) was incapable of being directed by Richard LaGravenese.,REFUTES,qwen2.5:7b,claim_only,NOT ENOUGH INFO,False,2.477,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=P.S+I+Love+You+%28film%29+was+incapable+of+being+directed+by+Richard+LaGravenese.&srlimit=3&format=json,"The evidence provided does not contain any information about the director of the film P.S I Love You, making it impossible to determine if Richard LaGravenese directed the film or not.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information about the director of the film P.S I Love You, making it impossible to determine if Richard LaGravenese directed the film or not.""
+}",
+25490,"For two years in a row, Josh Hutcherson was in two different films.",REFUTES,qwen2.5:7b,claim_only,NOT ENOUGH INFO,False,2.221,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=For+two+years+in+a+row%2C+Josh+Hutcherson+was+in+two+different+films.&srlimit=3&format=json,"The provided evidence does not contain any information about Josh Hutcherson's film appearances, thus it is not possible to verify or refute the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The provided evidence does not contain any information about Josh Hutcherson's film appearances, thus it is not possible to verify or refute the claim.""
+}",
+103545,Annabelle is at The Museum of Natural History.,REFUTES,qwen2.5:7b,claim_only,NOT ENOUGH INFO,False,1.955,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Annabelle+is+at+The+Museum+of+Natural+History.&srlimit=3&format=json,There is no external evidence provided to confirm or deny Annabelle's location at The Museum of Natural History.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""There is no external evidence provided to confirm or deny Annabelle's location at The Museum of Natural History.""
+}",
+89876,Keegan-Michael Key has yet to play anyone.,REFUTES,qwen2.5:7b,claim_only,NOT ENOUGH INFO,False,2.335,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Keegan-Michael+Key+has+yet+to+play+anyone.&srlimit=3&format=json,"The evidence does not provide any information about Keegan-Michael Key's acting roles, thus it is not possible to determine if the claim is true or false.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence does not provide any information about Keegan-Michael Key's acting roles, thus it is not possible to determine if the claim is true or false.""
+}",
+17031,Reign Over Me was written and directed by Mike Binder in 2001.,REFUTES,qwen2.5:7b,claim_only,NOT ENOUGH INFO,False,2.224,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Reign+Over+Me+was+written+and+directed+by+Mike+Binder+in+2001.&srlimit=3&format=json,"The provided evidence does not contain any information about the writer, director, or release year of the film 'Reign Over Me'.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The provided evidence does not contain any information about the writer, director, or release year of the film 'Reign Over Me'.""
+}",
+170423,Michael Vick's maiden name is Dwayne.,REFUTES,qwen2.5:7b,claim_only,NOT ENOUGH INFO,False,2.67,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Michael+Vick%27s+maiden+name+is+Dwayne.&srlimit=3&format=json,"The provided evidence does not contain any information about Michael Vick's maiden name, and therefore, it is not possible to determine the accuracy of the claim based solely on the given information.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The provided evidence does not contain any information about Michael Vick's maiden name, and therefore, it is not possible to determine the accuracy of the claim based solely on the given information.""
+}",
+2531,Dopamine prevents neuromodulation.,REFUTES,qwen2.5:7b,claim_only,NOT ENOUGH INFO,False,1.922,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Dopamine+prevents+neuromodulation.&srlimit=3&format=json,The evidence provided does not offer any information to support or refute the claim about dopamine and neuromodulation.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not offer any information to support or refute the claim about dopamine and neuromodulation.""
+}",
+178341,Al Jardine refuses to play all musical instruments.,REFUTES,qwen2.5:7b,claim_only,NOT ENOUGH INFO,False,1.877,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Al+Jardine+refuses+to+play+all+musical+instruments.&srlimit=3&format=json,There is no provided evidence to support or refute the claim about Al Jardine's musical instrument playing abilities.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""There is no provided evidence to support or refute the claim about Al Jardine's musical instrument playing abilities.""
+}",
+229312,A working animal is wild only.,REFUTES,qwen2.5:7b,claim_only,NOT ENOUGH INFO,False,1.871,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=A+working+animal+is+wild+only.&srlimit=3&format=json,"The evidence provided does not offer any information to support or refute the claim, as no external evidence was given.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not offer any information to support or refute the claim, as no external evidence was given.""
+}",
+199732,Tijuana is part of the San Diego -- Tijuana metropolitan area.,SUPPORTS,qwen2.5:7b,claim_only,SUPPORTS,True,2.392,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Tijuana+is+part+of+the+San+Diego+--+Tijuana+metropolitan+area.&srlimit=3&format=json,"The San Diego--Tijuana metropolitan area is a recognized urban area that spans across both San Diego, California, and Tijuana, Mexico, which directly supports the claim.","{
+  ""label"": ""SUPPORTS"",
+  ""reason"": ""The San Diego--Tijuana metropolitan area is a recognized urban area that spans across both San Diego, California, and Tijuana, Mexico, which directly supports the claim.""
+}",
+125630,Kellogg's products are marketed in over 180 countries and manufactured in 18.,SUPPORTS,qwen2.5:7b,claim_only,NOT ENOUGH INFO,False,2.891,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Kellogg%27s+products+are+marketed+in+over+180+countries+and+manufactured+in+18.&srlimit=3&format=json,"The evidence provided does not contain specific information about the number of countries where Kellogg's products are marketed or the number of manufacturing locations. Therefore, it is not possible to verify or refute the claim based on the given information.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain specific information about the number of countries where Kellogg's products are marketed or the number of manufacturing locations. Therefore, it is not possible to verify or refute the claim based on the given information.""
+}",
+203377,Goosebumps (film) was directed by Rob Letterman.,SUPPORTS,qwen2.5:7b,claim_only,NOT ENOUGH INFO,False,1.84,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Goosebumps+%28film%29+was+directed+by+Rob+Letterman.&srlimit=3&format=json,The provided evidence does not contain any information about the director of the film 'Goosebumps'.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The provided evidence does not contain any information about the director of the film 'Goosebumps'.""
+}",
+87337,Turin's Juventus Stadium is the home arena for Juventus F.C.,SUPPORTS,qwen2.5:7b,claim_only,NOT ENOUGH INFO,False,2.431,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Turin%27s+Juventus+Stadium+is+the+home+arena+for+Juventus+F.C.&srlimit=3&format=json,"The provided evidence does not contain any information about Turin's Juventus Stadium or Juventus F.C.'s home arena, so it is not possible to verify the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The provided evidence does not contain any information about Turin's Juventus Stadium or Juventus F.C.'s home arena, so it is not possible to verify the claim.""
+}",
+183507,Estelle Getty performed comedy.,SUPPORTS,qwen2.5:7b,claim_only,NOT ENOUGH INFO,False,2.3,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Estelle+Getty+performed+comedy.&srlimit=3&format=json,"The provided evidence does not contain any information about Estelle Getty's performances or roles, making it impossible to determine if she performed comedy.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The provided evidence does not contain any information about Estelle Getty's performances or roles, making it impossible to determine if she performed comedy.""
+}",
+45575,Pirates of the Caribbean was added to Tokyo Disneyland in 1983.,SUPPORTS,qwen2.5:7b,claim_only,NOT ENOUGH INFO,False,2.601,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Pirates+of+the+Caribbean+was+added+to+Tokyo+Disneyland+in+1983.&srlimit=3&format=json,"The provided evidence does not contain any information about the addition of Pirates of the Caribbean to Tokyo Disneyland in 1983. Therefore, there is not enough information to verify or refute the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The provided evidence does not contain any information about the addition of Pirates of the Caribbean to Tokyo Disneyland in 1983. Therefore, there is not enough information to verify or refute the claim.""
+}",
+29352,Hot Right Now is a DJ Fresh single.,SUPPORTS,qwen2.5:7b,claim_only,NOT ENOUGH INFO,False,2.439,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Hot+Right+Now+is+a+DJ+Fresh+single.&srlimit=3&format=json,"The provided evidence does not contain any information about Hot Right Now or its association with DJ Fresh, thus it is not possible to verify or refute the claim based on the given data.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The provided evidence does not contain any information about Hot Right Now or its association with DJ Fresh, thus it is not possible to verify or refute the claim based on the given data.""
+}",
+61195,West Virginia borders Kentucky.,SUPPORTS,qwen2.5:7b,claim_only,SUPPORTS,True,1.714,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=West+Virginia+borders+Kentucky.&srlimit=3&format=json,West Virginia does indeed border Kentucky. This information is widely known and can be verified through geographical references.,"{
+  ""label"": ""SUPPORTS"",
+  ""reason"": ""West Virginia does indeed border Kentucky. This information is widely known and can be verified through geographical references.""
+}",
+6807,"Camden, New Jersey is the home of a school that was founded as the South Jersey Law School in 1926.",SUPPORTS,qwen2.5:7b,claim_only,NOT ENOUGH INFO,False,2.533,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Camden%2C+New+Jersey+is+the+home+of+a+school+that+was+founded+as+the+South+Jersey+Law+School+in+1926.&srlimit=3&format=json,"The evidence provided does not contain any information about the founding of South Jersey Law School or its current status in Camden, New Jersey. Therefore, there is not enough information to verify or refute the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information about the founding of South Jersey Law School or its current status in Camden, New Jersey. Therefore, there is not enough information to verify or refute the claim.""
+}",
+54204,"James Jones has been referred to as the ""Champ"".",SUPPORTS,qwen2.5:7b,claim_only,NOT ENOUGH INFO,False,1.84,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=James+Jones+has+been+referred+to+as+the+%22Champ%22.&srlimit=3&format=json,There is no provided evidence to confirm or deny whether James Jones has been referred to as the 'Champ'.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""There is no provided evidence to confirm or deny whether James Jones has been referred to as the 'Champ'.""
+}",
+164991,Polar bears depend on the ocean as their means of travel.,NOT ENOUGH INFO,llama3.1:8b,claim_only,NOT ENOUGH INFO,True,4.613,"[{""title"": ""Ocean"", ""sentence"": ""Ocean temperatures depend on the amount of solar radiation reaching the ocean surface."", ""similarity"": 0.1316}, {""title"": ""Polar bear"", ""sentence"": ""Polar bears travel in response to changes in ice cover throughout the year."", ""similarity"": 0.1301}, {""title"": ""Polar bear"", ""sentence"": ""See also 2011 Svalbard polar bear attack International Polar Bear Day List of individual bears – includes individual captive polar bears Polar Bears International – conservation organization Polar Bear Shores – an exhibit featuring polar bears at Sea World in Australia Notes References Bibliography External links Polar Bears International website ARKive—images and movies of the polar bear (Ursus maritimus)"", ""similarity"": 0.0996}, {""title"": ""Polar bear"", ""sentence"": ""Polar bears were sometimes killed in their dens."", ""similarity"": 0.0901}, {""title"": ""Polar bear"", ""sentence"": ""Polar bears have also been filmed for cinema."", ""similarity"": 0.0814}]",,No external evidence was provided to determine the claim's validity.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to determine the claim's validity.""
+}",
+80919,Match Point has been compared to Blue Jasmine.,NOT ENOUGH INFO,llama3.1:8b,claim_only,NOT ENOUGH INFO,True,1.54,"[{""title"": ""Woody Allen"", ""sentence"": ""Allen has called it one of his three best films, with Stardust Memories and Match Point."", ""similarity"": 0.2587}, {""title"": ""Woody Allen"", ""sentence"": ""Owen Gleiberman of Variety called it \""his best since Blue Jasmine\""."", ""similarity"": 0.1981}, {""title"": ""Woody Allen"", ""sentence"": ""They include Interiors (1978), Stardust Memories (1980), Zelig (1983), Broadway Danny Rose (1984), The Purple Rose of Cairo (1985), Radio Days (1987), Husbands and Wives (1992), Bullets Over Broadway (1994), Deconstructing Harry (1997), Match Point (2005), Vicky Cristina Barcelona (2008), Midnight in Paris (2011), and Blue Jasmine (2013)."", ""similarity"": 0.17}, {""title"": ""Woody Allen"", ""sentence"": ""In Match Point Allen shifts focus from the intellectual upper class of New York to the moneyed upper class of London."", ""similarity"": 0.1551}, {""title"": ""Woody Allen"", ""sentence"": ""It goes down easily, but I have to say it's interesting less for what it is than for how it is.\"" Allen's next film, Blue Jasmine, debuted in July 2013."", ""similarity"": 0.1496}]",,No external evidence was provided to compare Match Point to Blue Jasmine.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to compare Match Point to Blue Jasmine.""
+}",
+185787,The latest ceremony of the Logie Awards was broadcast live on the American Nine Network.,NOT ENOUGH INFO,llama3.1:8b,claim_only,NOT ENOUGH INFO,True,1.412,"[{""title"": ""Seven Network"", ""sentence"": ""Commensurate with the American network's own slump, Seven had not found success with an NBC prime time series since 2007."", ""similarity"": 0.1131}, {""title"": ""Seven Network"", ""sentence"": ""Slogans Seven Network's TV ad campaigns have often followed NBC due to Seven's historical ties with the American network, but has occasionally used branding from fellow US networks ABC and FOX."", ""similarity"": 0.0857}, {""title"": ""Seven Network"", ""sentence"": ""HSV-7 began its relationship with the Victorian Football League (now the Australian Football League) in April 1957, when the station broadcast the first live Australian rules football match."", ""similarity"": 0.0824}, {""title"": ""Seven Network"", ""sentence"": ""Sunrise, The Front Bar, The Morning Show, TV Week Logie Awards; factual programming e.g.The Force, Border Security, Highway Patrol, Crime Investigation Australia, Beach Cops, Surveillance Oz and Gold Coast Medical; and reality, includingAustralian Idol, My Kitchen Rules, The Farmer Wants a Wife, SAS Australia, The Voice Australia, Dancing with the Stars Australia, Dream Home, Made in Bondi, First Dates, Stranded on Honeymoon Island."", ""similarity"": 0.0781}, {""title"": ""Seven Network"", ""sentence"": ""Seven Network's coverage of the Tokyo 2020 Summer Olympic Games saw them win three awards (gold, silver and bronze) at the International Olympic Committee's coveted Golden Rings Awards."", ""similarity"": 0.0742}]",,No external evidence was provided to verify the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to verify the claim.""
+}",
+157646,"Diana, Princess of Wales's father inherited the title of professor emeritus.",NOT ENOUGH INFO,llama3.1:8b,claim_only,NOT ENOUGH INFO,True,2.139,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Diana%2C+Princess+of+Wales%27s+father+inherited+the+title+of+professor+emeritus.&srlimit=3&format=json,"No external evidence was provided to determine the claim about Diana, Princess of Wales's father inheriting the title of professor emeritus.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to determine the claim about Diana, Princess of Wales's father inheriting the title of professor emeritus.""
+}",
+107687,Ten matches were won at SummerSlam.,NOT ENOUGH INFO,llama3.1:8b,claim_only,NOT ENOUGH INFO,True,1.711,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Ten+matches+were+won+at+SummerSlam.&srlimit=3&format=json,No external evidence was provided to determine the number of matches won at SummerSlam.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to determine the number of matches won at SummerSlam.""
+}",
+22003,The Maltese language is an official language of the European Union.,NOT ENOUGH INFO,llama3.1:8b,claim_only,NOT ENOUGH INFO,True,1.495,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=The+Maltese+language+is+an+official+language+of+the+European+Union.&srlimit=3&format=json,No external evidence was provided to verify the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to verify the claim.""
+}",
+34540,James VI and I began the British colonization of Africa.,NOT ENOUGH INFO,llama3.1:8b,claim_only,NOT ENOUGH INFO,True,1.601,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=James+VI+and+I+began+the+British+colonization+of+Africa.&srlimit=3&format=json,No external evidence was provided to determine the claim's validity.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to determine the claim's validity.""
+}",
+200294,The screenplay for Natural Born Killers was heavily revised by writer and director Oliver Stone.,NOT ENOUGH INFO,llama3.1:8b,claim_only,NOT ENOUGH INFO,True,2.303,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=The+screenplay+for+Natural+Born+Killers+was+heavily+revised+by+writer+and+director+Oliver+Stone.&srlimit=3&format=json,No external evidence was provided to determine the extent of revisions to the screenplay.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to determine the extent of revisions to the screenplay.""
+}",
+161128,"Kesha was born on March 1st, 1987 in a Pasadena, California.",NOT ENOUGH INFO,llama3.1:8b,claim_only,NOT ENOUGH INFO,True,2.05,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Kesha+was+born+on+March+1st%2C+1987+in+a+Pasadena%2C+California.&srlimit=3&format=json,No external evidence was provided to verify Kesha's birthdate and location.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to verify Kesha's birthdate and location.""
+}",
+220281,Bullitt is an English drama and thriller from 1968.,NOT ENOUGH INFO,llama3.1:8b,claim_only,NOT ENOUGH INFO,True,1.613,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Bullitt+is+an+English+drama+and+thriller+from+1968.&srlimit=3&format=json,No external evidence was provided to verify the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to verify the claim.""
+}",
+103111,The Winds of Winter is a grave digger.,REFUTES,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,2.385,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=The+Winds+of+Winter+is+a+grave+digger.&srlimit=3&format=json,No external evidence was provided to determine the occupation of The Winds of Winter.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to determine the occupation of The Winds of Winter.""
+}",
+77043,P.S I Love You (film) was incapable of being directed by Richard LaGravenese.,REFUTES,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,2.181,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=P.S+I+Love+You+%28film%29+was+incapable+of+being+directed+by+Richard+LaGravenese.&srlimit=3&format=json,No external evidence was provided to determine the director of the film P.S I Love You,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to determine the director of the film P.S I Love You""
+}",
+25490,"For two years in a row, Josh Hutcherson was in two different films.",REFUTES,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,1.764,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=For+two+years+in+a+row%2C+Josh+Hutcherson+was+in+two+different+films.&srlimit=3&format=json,No external evidence was provided to verify Josh Hutcherson's film appearances.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to verify Josh Hutcherson's film appearances.""
+}",
+103545,Annabelle is at The Museum of Natural History.,REFUTES,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,1.618,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Annabelle+is+at+The+Museum+of+Natural+History.&srlimit=3&format=json,No external evidence was provided to determine Annabelle's location.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to determine Annabelle's location.""
+}",
+89876,Keegan-Michael Key has yet to play anyone.,REFUTES,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,1.53,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Keegan-Michael+Key+has+yet+to+play+anyone.&srlimit=3&format=json,No external evidence was provided to verify the claim,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to verify the claim""
+}",
+17031,Reign Over Me was written and directed by Mike Binder in 2001.,REFUTES,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,1.513,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Reign+Over+Me+was+written+and+directed+by+Mike+Binder+in+2001.&srlimit=3&format=json,No external evidence was provided to verify the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to verify the claim.""
+}",
+170423,Michael Vick's maiden name is Dwayne.,REFUTES,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,1.971,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Michael+Vick%27s+maiden+name+is+Dwayne.&srlimit=3&format=json,"No external evidence was provided, and I do not have enough information to determine Michael Vick's maiden name.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided, and I do not have enough information to determine Michael Vick's maiden name.""
+}",
+2531,Dopamine prevents neuromodulation.,REFUTES,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,1.858,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Dopamine+prevents+neuromodulation.&srlimit=3&format=json,No external evidence was provided to determine the effect of dopamine on neuromodulation.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to determine the effect of dopamine on neuromodulation.""
+}",
+178341,Al Jardine refuses to play all musical instruments.,REFUTES,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,1.803,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Al+Jardine+refuses+to+play+all+musical+instruments.&srlimit=3&format=json,No external evidence was provided to determine Al Jardine's musical instrument playing habits.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to determine Al Jardine's musical instrument playing habits.""
+}",
+229312,A working animal is wild only.,REFUTES,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,1.752,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=A+working+animal+is+wild+only.&srlimit=3&format=json,No external evidence was provided to determine the relationship between working animals and being wild.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to determine the relationship between working animals and being wild.""
+}",
+199732,Tijuana is part of the San Diego -- Tijuana metropolitan area.,SUPPORTS,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,1.498,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Tijuana+is+part+of+the+San+Diego+--+Tijuana+metropolitan+area.&srlimit=3&format=json,No external evidence was provided to verify the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to verify the claim.""
+}",
+125630,Kellogg's products are marketed in over 180 countries and manufactured in 18.,SUPPORTS,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,1.498,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Kellogg%27s+products+are+marketed+in+over+180+countries+and+manufactured+in+18.&srlimit=3&format=json,No external evidence was provided to verify the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to verify the claim.""
+}",
+203377,Goosebumps (film) was directed by Rob Letterman.,SUPPORTS,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,1.495,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Goosebumps+%28film%29+was+directed+by+Rob+Letterman.&srlimit=3&format=json,No external evidence was provided to verify the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to verify the claim.""
+}",
+87337,Turin's Juventus Stadium is the home arena for Juventus F.C.,SUPPORTS,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,1.476,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Turin%27s+Juventus+Stadium+is+the+home+arena+for+Juventus+F.C.&srlimit=3&format=json,No external evidence was provided to verify the claim,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to verify the claim""
+}",
+183507,Estelle Getty performed comedy.,SUPPORTS,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,1.679,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Estelle+Getty+performed+comedy.&srlimit=3&format=json,No external evidence was provided to determine Estelle Getty's performance in comedy.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to determine Estelle Getty's performance in comedy.""
+}",
+45575,Pirates of the Caribbean was added to Tokyo Disneyland in 1983.,SUPPORTS,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,1.511,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Pirates+of+the+Caribbean+was+added+to+Tokyo+Disneyland+in+1983.&srlimit=3&format=json,No external evidence was provided to verify the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to verify the claim.""
+}",
+29352,Hot Right Now is a DJ Fresh single.,SUPPORTS,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,1.496,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Hot+Right+Now+is+a+DJ+Fresh+single.&srlimit=3&format=json,No external evidence was provided to verify the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to verify the claim.""
+}",
+61195,West Virginia borders Kentucky.,SUPPORTS,llama3.1:8b,claim_only,SUPPORTS,True,1.909,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=West+Virginia+borders+Kentucky.&srlimit=3&format=json,"Based on general knowledge, West Virginia and Kentucky are adjacent states in the United States, sharing a border.","{
+  ""label"": ""SUPPORTS"",
+  ""reason"": ""Based on general knowledge, West Virginia and Kentucky are adjacent states in the United States, sharing a border.""
+}",
+6807,"Camden, New Jersey is the home of a school that was founded as the South Jersey Law School in 1926.",SUPPORTS,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,1.448,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Camden%2C+New+Jersey+is+the+home+of+a+school+that+was+founded+as+the+South+Jersey+Law+School+in+1926.&srlimit=3&format=json,No external evidence was provided to verify the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to verify the claim.""
+}",
+54204,"James Jones has been referred to as the ""Champ"".",SUPPORTS,llama3.1:8b,claim_only,NOT ENOUGH INFO,False,2.009,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=James+Jones+has+been+referred+to+as+the+%22Champ%22.&srlimit=3&format=json,No external evidence was provided to verify the claim about James Jones being referred to as the 'Champ'.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No external evidence was provided to verify the claim about James Jones being referred to as the 'Champ'.""
+}",
+164991,Polar bears depend on the ocean as their means of travel.,NOT ENOUGH INFO,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,True,6.354,"[{""title"": ""Ocean"", ""sentence"": ""Ocean temperatures depend on the amount of solar radiation reaching the ocean surface."", ""similarity"": 0.1316}, {""title"": ""Polar bear"", ""sentence"": ""Polar bears travel in response to changes in ice cover throughout the year."", ""similarity"": 0.1301}, {""title"": ""Polar bear"", ""sentence"": ""See also 2011 Svalbard polar bear attack International Polar Bear Day List of individual bears – includes individual captive polar bears Polar Bears International – conservation organization Polar Bear Shores – an exhibit featuring polar bears at Sea World in Australia Notes References Bibliography External links Polar Bears International website ARKive—images and movies of the polar bear (Ursus maritimus)"", ""similarity"": 0.0996}, {""title"": ""Polar bear"", ""sentence"": ""Polar bears were sometimes killed in their dens."", ""similarity"": 0.0901}, {""title"": ""Polar bear"", ""sentence"": ""Polar bears have also been filmed for cinema."", ""similarity"": 0.0814}]",,"The evidence does not directly address whether polar bears depend on the ocean as their means of travel. While it mentions that polar bears travel in response to changes in ice cover, it does not explicitly state that the ocean is their primary means of travel.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence does not directly address whether polar bears depend on the ocean as their means of travel. While it mentions that polar bears travel in response to changes in ice cover, it does not explicitly state that the ocean is their primary means of travel.""
+}",
+80919,Match Point has been compared to Blue Jasmine.,NOT ENOUGH INFO,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,True,2.927,"[{""title"": ""Woody Allen"", ""sentence"": ""Allen has called it one of his three best films, with Stardust Memories and Match Point."", ""similarity"": 0.2587}, {""title"": ""Woody Allen"", ""sentence"": ""Owen Gleiberman of Variety called it \""his best since Blue Jasmine\""."", ""similarity"": 0.1981}, {""title"": ""Woody Allen"", ""sentence"": ""They include Interiors (1978), Stardust Memories (1980), Zelig (1983), Broadway Danny Rose (1984), The Purple Rose of Cairo (1985), Radio Days (1987), Husbands and Wives (1992), Bullets Over Broadway (1994), Deconstructing Harry (1997), Match Point (2005), Vicky Cristina Barcelona (2008), Midnight in Paris (2011), and Blue Jasmine (2013)."", ""similarity"": 0.17}, {""title"": ""Woody Allen"", ""sentence"": ""In Match Point Allen shifts focus from the intellectual upper class of New York to the moneyed upper class of London."", ""similarity"": 0.1551}, {""title"": ""Woody Allen"", ""sentence"": ""It goes down easily, but I have to say it's interesting less for what it is than for how it is.\"" Allen's next film, Blue Jasmine, debuted in July 2013."", ""similarity"": 0.1496}]",,"The evidence does not directly compare Match Point to Blue Jasmine. While both films are mentioned, there is no explicit statement comparing them.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence does not directly compare Match Point to Blue Jasmine. While both films are mentioned, there is no explicit statement comparing them.""
+}",
+185787,The latest ceremony of the Logie Awards was broadcast live on the American Nine Network.,NOT ENOUGH INFO,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,True,3.187,"[{""title"": ""Seven Network"", ""sentence"": ""Commensurate with the American network's own slump, Seven had not found success with an NBC prime time series since 2007."", ""similarity"": 0.1131}, {""title"": ""Seven Network"", ""sentence"": ""Slogans Seven Network's TV ad campaigns have often followed NBC due to Seven's historical ties with the American network, but has occasionally used branding from fellow US networks ABC and FOX."", ""similarity"": 0.0857}, {""title"": ""Seven Network"", ""sentence"": ""HSV-7 began its relationship with the Victorian Football League (now the Australian Football League) in April 1957, when the station broadcast the first live Australian rules football match."", ""similarity"": 0.0824}, {""title"": ""Seven Network"", ""sentence"": ""Sunrise, The Front Bar, The Morning Show, TV Week Logie Awards; factual programming e.g.The Force, Border Security, Highway Patrol, Crime Investigation Australia, Beach Cops, Surveillance Oz and Gold Coast Medical; and reality, includingAustralian Idol, My Kitchen Rules, The Farmer Wants a Wife, SAS Australia, The Voice Australia, Dancing with the Stars Australia, Dream Home, Made in Bondi, First Dates, Stranded on Honeymoon Island."", ""similarity"": 0.0781}, {""title"": ""Seven Network"", ""sentence"": ""Seven Network's coverage of the Tokyo 2020 Summer Olympic Games saw them win three awards (gold, silver and bronze) at the International Olympic Committee's coveted Golden Rings Awards."", ""similarity"": 0.0742}]",,The evidence provided does not mention the American Nine Network or the Logie Awards ceremony. It only provides information about the Seven Network's operations and history.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not mention the American Nine Network or the Logie Awards ceremony. It only provides information about the Seven Network's operations and history.""
+}",
+157646,"Diana, Princess of Wales's father inherited the title of professor emeritus.",NOT ENOUGH INFO,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,True,2.122,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Diana%2C+Princess+of+Wales%27s+father+inherited+the+title+of+professor+emeritus.&srlimit=3&format=json,"The evidence does not provide any information about Diana, Princess of Wales's father or his title, thus there is not enough information to verify or refute the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence does not provide any information about Diana, Princess of Wales's father or his title, thus there is not enough information to verify or refute the claim.""
+}",
+107687,Ten matches were won at SummerSlam.,NOT ENOUGH INFO,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,True,2.19,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Ten+matches+were+won+at+SummerSlam.&srlimit=3&format=json,"The evidence does not provide any information about the number of matches won at SummerSlam, thus there is not enough information to verify or refute the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence does not provide any information about the number of matches won at SummerSlam, thus there is not enough information to verify or refute the claim.""
+}",
+22003,The Maltese language is an official language of the European Union.,NOT ENOUGH INFO,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,True,2.039,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=The+Maltese+language+is+an+official+language+of+the+European+Union.&srlimit=3&format=json,The evidence provided does not contain any information about the Maltese language or its status as an official language of the European Union.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information about the Maltese language or its status as an official language of the European Union.""
+}",
+34540,James VI and I began the British colonization of Africa.,NOT ENOUGH INFO,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,True,2.051,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=James+VI+and+I+began+the+British+colonization+of+Africa.&srlimit=3&format=json,The evidence provided does not contain any information to support or refute the claim about James VI and I beginning the British colonization of Africa.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information to support or refute the claim about James VI and I beginning the British colonization of Africa.""
+}",
+200294,The screenplay for Natural Born Killers was heavily revised by writer and director Oliver Stone.,NOT ENOUGH INFO,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,True,2.547,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=The+screenplay+for+Natural+Born+Killers+was+heavily+revised+by+writer+and+director+Oliver+Stone.&srlimit=3&format=json,"The evidence provided does not contain any information about the revisions made to the screenplay for Natural Born Killers by Oliver Stone, thus it is not sufficient to support or refute the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information about the revisions made to the screenplay for Natural Born Killers by Oliver Stone, thus it is not sufficient to support or refute the claim.""
+}",
+161128,"Kesha was born on March 1st, 1987 in a Pasadena, California.",NOT ENOUGH INFO,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,True,2.283,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Kesha+was+born+on+March+1st%2C+1987+in+a+Pasadena%2C+California.&srlimit=3&format=json,"The evidence provided does not contain any information about Kesha's birth date or place, thus there is not enough information to verify or refute the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information about Kesha's birth date or place, thus there is not enough information to verify or refute the claim.""
+}",
+220281,Bullitt is an English drama and thriller from 1968.,NOT ENOUGH INFO,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,True,2.212,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Bullitt+is+an+English+drama+and+thriller+from+1968.&srlimit=3&format=json,The evidence provided does not contain any information to verify or refute the claim about Bullitt being an English drama and thriller from 1968.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information to verify or refute the claim about Bullitt being an English drama and thriller from 1968.""
+}",
+103111,The Winds of Winter is a grave digger.,REFUTES,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,2.944,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=The+Winds+of+Winter+is+a+grave+digger.&srlimit=3&format=json,"The evidence does not provide any information to support or refute the claim about The Winds of Winter being a grave digger. The claim appears to mix up the character from the Game of Thrones series with a grave digger, which are unrelated concepts.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence does not provide any information to support or refute the claim about The Winds of Winter being a grave digger. The claim appears to mix up the character from the Game of Thrones series with a grave digger, which are unrelated concepts.""
+}",
+77043,P.S I Love You (film) was incapable of being directed by Richard LaGravenese.,REFUTES,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,2.299,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=P.S+I+Love+You+%28film%29+was+incapable+of+being+directed+by+Richard+LaGravenese.&srlimit=3&format=json,"The evidence does not provide any information about the director of the film P.S I Love You, hence it is not enough to support or refute the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence does not provide any information about the director of the film P.S I Love You, hence it is not enough to support or refute the claim.""
+}",
+25490,"For two years in a row, Josh Hutcherson was in two different films.",REFUTES,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,2.144,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=For+two+years+in+a+row%2C+Josh+Hutcherson+was+in+two+different+films.&srlimit=3&format=json,"The evidence does not provide any information about Josh Hutcherson's film appearances, thus there is not enough information to verify or refute the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence does not provide any information about Josh Hutcherson's film appearances, thus there is not enough information to verify or refute the claim.""
+}",
+103545,Annabelle is at The Museum of Natural History.,REFUTES,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,1.877,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Annabelle+is+at+The+Museum+of+Natural+History.&srlimit=3&format=json,The evidence does not provide any information to support or refute the claim about Annabelle's location at The Museum of Natural History.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence does not provide any information to support or refute the claim about Annabelle's location at The Museum of Natural History.""
+}",
+89876,Keegan-Michael Key has yet to play anyone.,REFUTES,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,2.098,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Keegan-Michael+Key+has+yet+to+play+anyone.&srlimit=3&format=json,"The evidence does not provide any information about Keegan-Michael Key's acting roles, thus it is not enough to determine whether the claim is true or false.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence does not provide any information about Keegan-Michael Key's acting roles, thus it is not enough to determine whether the claim is true or false.""
+}",
+17031,Reign Over Me was written and directed by Mike Binder in 2001.,REFUTES,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,1.999,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Reign+Over+Me+was+written+and+directed+by+Mike+Binder+in+2001.&srlimit=3&format=json,"The evidence provided does not contain any information about the claim, thus there is not enough information to verify or refute it.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information about the claim, thus there is not enough information to verify or refute it.""
+}",
+170423,Michael Vick's maiden name is Dwayne.,REFUTES,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,2.094,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Michael+Vick%27s+maiden+name+is+Dwayne.&srlimit=3&format=json,"The evidence provided does not contain any information about Michael Vick's maiden name, thus there is not enough information to verify or refute the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information about Michael Vick's maiden name, thus there is not enough information to verify or refute the claim.""
+}",
+2531,Dopamine prevents neuromodulation.,REFUTES,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,1.783,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Dopamine+prevents+neuromodulation.&srlimit=3&format=json,The evidence provided does not contain any information to support or refute the claim about dopamine preventing neuromodulation.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information to support or refute the claim about dopamine preventing neuromodulation.""
+}",
+178341,Al Jardine refuses to play all musical instruments.,REFUTES,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,2.26,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Al+Jardine+refuses+to+play+all+musical+instruments.&srlimit=3&format=json,"The evidence does not provide any information about Al Jardine's musical instrument playing abilities, thus it is not enough to support or refute the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence does not provide any information about Al Jardine's musical instrument playing abilities, thus it is not enough to support or refute the claim.""
+}",
+229312,A working animal is wild only.,REFUTES,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,1.885,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=A+working+animal+is+wild+only.&srlimit=3&format=json,"The evidence provided does not contain any information to support or refute the claim, as no relevant evidence was retrieved.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information to support or refute the claim, as no relevant evidence was retrieved.""
+}",
+199732,Tijuana is part of the San Diego -- Tijuana metropolitan area.,SUPPORTS,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,2.388,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Tijuana+is+part+of+the+San+Diego+--+Tijuana+metropolitan+area.&srlimit=3&format=json,The evidence provided does not contain any information to support or refute the claim about Tijuana being part of the San Diego -- Tijuana metropolitan area.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information to support or refute the claim about Tijuana being part of the San Diego -- Tijuana metropolitan area.""
+}",
+125630,Kellogg's products are marketed in over 180 countries and manufactured in 18.,SUPPORTS,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,2.435,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Kellogg%27s+products+are+marketed+in+over+180+countries+and+manufactured+in+18.&srlimit=3&format=json,"The evidence provided does not contain any information about Kellogg's product distribution or manufacturing locations, thus it is not sufficient to verify or refute the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information about Kellogg's product distribution or manufacturing locations, thus it is not sufficient to verify or refute the claim.""
+}",
+203377,Goosebumps (film) was directed by Rob Letterman.,SUPPORTS,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,2.117,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Goosebumps+%28film%29+was+directed+by+Rob+Letterman.&srlimit=3&format=json,The evidence does not provide any information to confirm or deny the claim about who directed the film 'Goosebumps'.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence does not provide any information to confirm or deny the claim about who directed the film 'Goosebumps'.""
+}",
+87337,Turin's Juventus Stadium is the home arena for Juventus F.C.,SUPPORTS,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,2.205,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Turin%27s+Juventus+Stadium+is+the+home+arena+for+Juventus+F.C.&srlimit=3&format=json,The evidence does not provide any information to verify or refute the claim about Turin's Juventus Stadium being the home arena for Juventus F.C.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence does not provide any information to verify or refute the claim about Turin's Juventus Stadium being the home arena for Juventus F.C.""
+}",
+183507,Estelle Getty performed comedy.,SUPPORTS,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,1.703,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Estelle+Getty+performed+comedy.&srlimit=3&format=json,The evidence does not provide any information to support or refute the claim about Estelle Getty performing comedy.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence does not provide any information to support or refute the claim about Estelle Getty performing comedy.""
+}",
+45575,Pirates of the Caribbean was added to Tokyo Disneyland in 1983.,SUPPORTS,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,2.619,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Pirates+of+the+Caribbean+was+added+to+Tokyo+Disneyland+in+1983.&srlimit=3&format=json,"The evidence provided does not contain any information about the addition of Pirates of the Caribbean to Tokyo Disneyland in 1983, hence there is not enough information to verify or refute the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information about the addition of Pirates of the Caribbean to Tokyo Disneyland in 1983, hence there is not enough information to verify or refute the claim.""
+}",
+29352,Hot Right Now is a DJ Fresh single.,SUPPORTS,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,1.825,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Hot+Right+Now+is+a+DJ+Fresh+single.&srlimit=3&format=json,The evidence does not provide any information to support or refute the claim about Hot Right Now being a DJ Fresh single.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence does not provide any information to support or refute the claim about Hot Right Now being a DJ Fresh single.""
+}",
+61195,West Virginia borders Kentucky.,SUPPORTS,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,2.128,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=West+Virginia+borders+Kentucky.&srlimit=3&format=json,"The evidence provided does not contain any information about the geographical borders of West Virginia and Kentucky, thus it is not sufficient to determine the validity of the claim.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information about the geographical borders of West Virginia and Kentucky, thus it is not sufficient to determine the validity of the claim.""
+}",
+6807,"Camden, New Jersey is the home of a school that was founded as the South Jersey Law School in 1926.",SUPPORTS,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,2.203,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Camden%2C+New+Jersey+is+the+home+of+a+school+that+was+founded+as+the+South+Jersey+Law+School+in+1926.&srlimit=3&format=json,"The evidence provided does not contain any information about the founding of South Jersey Law School or its current status in Camden, New Jersey.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence provided does not contain any information about the founding of South Jersey Law School or its current status in Camden, New Jersey.""
+}",
+54204,"James Jones has been referred to as the ""Champ"".",SUPPORTS,qwen2.5:7b,retrieved_evidence,NOT ENOUGH INFO,False,2.298,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=James+Jones+has+been+referred+to+as+the+%22Champ%22.&srlimit=3&format=json,The evidence does not provide any information to support or refute the claim that James Jones has been referred to as the 'Champ'.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence does not provide any information to support or refute the claim that James Jones has been referred to as the 'Champ'.""
+}",
+164991,Polar bears depend on the ocean as their means of travel.,NOT ENOUGH INFO,llama3.1:8b,retrieved_evidence,SUPPORTS,False,6.247,"[{""title"": ""Ocean"", ""sentence"": ""Ocean temperatures depend on the amount of solar radiation reaching the ocean surface."", ""similarity"": 0.1316}, {""title"": ""Polar bear"", ""sentence"": ""Polar bears travel in response to changes in ice cover throughout the year."", ""similarity"": 0.1301}, {""title"": ""Polar bear"", ""sentence"": ""See also 2011 Svalbard polar bear attack International Polar Bear Day List of individual bears – includes individual captive polar bears Polar Bears International – conservation organization Polar Bear Shores – an exhibit featuring polar bears at Sea World in Australia Notes References Bibliography External links Polar Bears International website ARKive—images and movies of the polar bear (Ursus maritimus)"", ""similarity"": 0.0996}, {""title"": ""Polar bear"", ""sentence"": ""Polar bears were sometimes killed in their dens."", ""similarity"": 0.0901}, {""title"": ""Polar bear"", ""sentence"": ""Polar bears have also been filmed for cinema."", ""similarity"": 0.0814}]",,"Evidence [2] and [3] state that polar bears travel in response to changes in ice cover, implying they rely on the ocean for travel.","{
+  ""label"": ""SUPPORTS"",
+  ""reason"": ""Evidence [2] and [3] state that polar bears travel in response to changes in ice cover, implying they rely on the ocean for travel.""
+}",
+80919,Match Point has been compared to Blue Jasmine.,NOT ENOUGH INFO,llama3.1:8b,retrieved_evidence,SUPPORTS,False,3.563,"[{""title"": ""Woody Allen"", ""sentence"": ""Allen has called it one of his three best films, with Stardust Memories and Match Point."", ""similarity"": 0.2587}, {""title"": ""Woody Allen"", ""sentence"": ""Owen Gleiberman of Variety called it \""his best since Blue Jasmine\""."", ""similarity"": 0.1981}, {""title"": ""Woody Allen"", ""sentence"": ""They include Interiors (1978), Stardust Memories (1980), Zelig (1983), Broadway Danny Rose (1984), The Purple Rose of Cairo (1985), Radio Days (1987), Husbands and Wives (1992), Bullets Over Broadway (1994), Deconstructing Harry (1997), Match Point (2005), Vicky Cristina Barcelona (2008), Midnight in Paris (2011), and Blue Jasmine (2013)."", ""similarity"": 0.17}, {""title"": ""Woody Allen"", ""sentence"": ""In Match Point Allen shifts focus from the intellectual upper class of New York to the moneyed upper class of London."", ""similarity"": 0.1551}, {""title"": ""Woody Allen"", ""sentence"": ""It goes down easily, but I have to say it's interesting less for what it is than for how it is.\"" Allen's next film, Blue Jasmine, debuted in July 2013."", ""similarity"": 0.1496}]",,"Owen Gleiberman of Variety called Match Point 'his best since Blue Jasmine', and Woody Allen has listed Match Point as one of his three best films.","{
+  ""label"": ""SUPPORTS"",
+  ""reason"": ""Owen Gleiberman of Variety called Match Point 'his best since Blue Jasmine', and Woody Allen has listed Match Point as one of his three best films.""
+}",
+185787,The latest ceremony of the Logie Awards was broadcast live on the American Nine Network.,NOT ENOUGH INFO,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,True,3.389,"[{""title"": ""Seven Network"", ""sentence"": ""Commensurate with the American network's own slump, Seven had not found success with an NBC prime time series since 2007."", ""similarity"": 0.1131}, {""title"": ""Seven Network"", ""sentence"": ""Slogans Seven Network's TV ad campaigns have often followed NBC due to Seven's historical ties with the American network, but has occasionally used branding from fellow US networks ABC and FOX."", ""similarity"": 0.0857}, {""title"": ""Seven Network"", ""sentence"": ""HSV-7 began its relationship with the Victorian Football League (now the Australian Football League) in April 1957, when the station broadcast the first live Australian rules football match."", ""similarity"": 0.0824}, {""title"": ""Seven Network"", ""sentence"": ""Sunrise, The Front Bar, The Morning Show, TV Week Logie Awards; factual programming e.g.The Force, Border Security, Highway Patrol, Crime Investigation Australia, Beach Cops, Surveillance Oz and Gold Coast Medical; and reality, includingAustralian Idol, My Kitchen Rules, The Farmer Wants a Wife, SAS Australia, The Voice Australia, Dancing with the Stars Australia, Dream Home, Made in Bondi, First Dates, Stranded on Honeymoon Island."", ""similarity"": 0.0781}, {""title"": ""Seven Network"", ""sentence"": ""Seven Network's coverage of the Tokyo 2020 Summer Olympic Games saw them win three awards (gold, silver and bronze) at the International Olympic Committee's coveted Golden Rings Awards."", ""similarity"": 0.0742}]",,"The evidence does not mention the Logie Awards or the American Nine Network, and only discusses the Seven Network's history, programming, and awards.","{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""The evidence does not mention the Logie Awards or the American Nine Network, and only discusses the Seven Network's history, programming, and awards.""
+}",
+157646,"Diana, Princess of Wales's father inherited the title of professor emeritus.",NOT ENOUGH INFO,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,True,1.745,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Diana%2C+Princess+of+Wales%27s+father+inherited+the+title+of+professor+emeritus.&srlimit=3&format=json,No relevant evidence was retrieved to establish the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved to establish the claim.""
+}",
+107687,Ten matches were won at SummerSlam.,NOT ENOUGH INFO,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,True,1.528,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Ten+matches+were+won+at+SummerSlam.&srlimit=3&format=json,No relevant evidence was retrieved to establish the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved to establish the claim.""
+}",
+22003,The Maltese language is an official language of the European Union.,NOT ENOUGH INFO,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,True,1.725,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=The+Maltese+language+is+an+official+language+of+the+European+Union.&srlimit=3&format=json,No relevant evidence was retrieved to establish the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved to establish the claim.""
+}",
+34540,James VI and I began the British colonization of Africa.,NOT ENOUGH INFO,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,True,1.539,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=James+VI+and+I+began+the+British+colonization+of+Africa.&srlimit=3&format=json,No relevant evidence was retrieved to establish the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved to establish the claim.""
+}",
+200294,The screenplay for Natural Born Killers was heavily revised by writer and director Oliver Stone.,NOT ENOUGH INFO,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,True,1.613,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=The+screenplay+for+Natural+Born+Killers+was+heavily+revised+by+writer+and+director+Oliver+Stone.&srlimit=3&format=json,No relevant evidence was retrieved to establish the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved to establish the claim.""
+}",
+161128,"Kesha was born on March 1st, 1987 in a Pasadena, California.",NOT ENOUGH INFO,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,True,1.613,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Kesha+was+born+on+March+1st%2C+1987+in+a+Pasadena%2C+California.&srlimit=3&format=json,No relevant evidence was retrieved to verify the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved to verify the claim.""
+}",
+220281,Bullitt is an English drama and thriller from 1968.,NOT ENOUGH INFO,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,True,1.462,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Bullitt+is+an+English+drama+and+thriller+from+1968.&srlimit=3&format=json,No relevant evidence was retrieved.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved.""
+}",
+103111,The Winds of Winter is a grave digger.,REFUTES,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.776,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=The+Winds+of+Winter+is+a+grave+digger.&srlimit=3&format=json,No relevant evidence was retrieved to establish the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved to establish the claim.""
+}",
+77043,P.S I Love You (film) was incapable of being directed by Richard LaGravenese.,REFUTES,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.77,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=P.S+I+Love+You+%28film%29+was+incapable+of+being+directed+by+Richard+LaGravenese.&srlimit=3&format=json,No relevant evidence was retrieved to establish the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved to establish the claim.""
+}",
+25490,"For two years in a row, Josh Hutcherson was in two different films.",REFUTES,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.976,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=For+two+years+in+a+row%2C+Josh+Hutcherson+was+in+two+different+films.&srlimit=3&format=json,No relevant evidence was retrieved to verify the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved to verify the claim.""
+}",
+103545,Annabelle is at The Museum of Natural History.,REFUTES,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.418,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Annabelle+is+at+The+Museum+of+Natural+History.&srlimit=3&format=json,No relevant evidence was retrieved.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved.""
+}",
+89876,Keegan-Michael Key has yet to play anyone.,REFUTES,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.529,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Keegan-Michael+Key+has+yet+to+play+anyone.&srlimit=3&format=json,No relevant evidence was retrieved to establish the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved to establish the claim.""
+}",
+17031,Reign Over Me was written and directed by Mike Binder in 2001.,REFUTES,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.688,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Reign+Over+Me+was+written+and+directed+by+Mike+Binder+in+2001.&srlimit=3&format=json,No relevant evidence was retrieved to verify the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved to verify the claim.""
+}",
+170423,Michael Vick's maiden name is Dwayne.,REFUTES,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.495,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Michael+Vick%27s+maiden+name+is+Dwayne.&srlimit=3&format=json,No relevant evidence was retrieved to establish the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved to establish the claim.""
+}",
+2531,Dopamine prevents neuromodulation.,REFUTES,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.365,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Dopamine+prevents+neuromodulation.&srlimit=3&format=json,No relevant evidence was retrieved.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved.""
+}",
+178341,Al Jardine refuses to play all musical instruments.,REFUTES,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.429,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Al+Jardine+refuses+to+play+all+musical+instruments.&srlimit=3&format=json,No relevant evidence was retrieved.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved.""
+}",
+229312,A working animal is wild only.,REFUTES,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.321,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=A+working+animal+is+wild+only.&srlimit=3&format=json,No relevant evidence was retrieved.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved.""
+}",
+199732,Tijuana is part of the San Diego -- Tijuana metropolitan area.,SUPPORTS,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.434,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Tijuana+is+part+of+the+San+Diego+--+Tijuana+metropolitan+area.&srlimit=3&format=json,No relevant evidence was retrieved.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved.""
+}",
+125630,Kellogg's products are marketed in over 180 countries and manufactured in 18.,SUPPORTS,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.591,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Kellogg%27s+products+are+marketed+in+over+180+countries+and+manufactured+in+18.&srlimit=3&format=json,No relevant evidence was retrieved to verify the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved to verify the claim.""
+}",
+203377,Goosebumps (film) was directed by Rob Letterman.,SUPPORTS,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.625,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Goosebumps+%28film%29+was+directed+by+Rob+Letterman.&srlimit=3&format=json,No relevant evidence was retrieved to verify the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved to verify the claim.""
+}",
+87337,Turin's Juventus Stadium is the home arena for Juventus F.C.,SUPPORTS,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.466,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Turin%27s+Juventus+Stadium+is+the+home+arena+for+Juventus+F.C.&srlimit=3&format=json,No relevant evidence was retrieved.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved.""
+}",
+183507,Estelle Getty performed comedy.,SUPPORTS,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.4,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Estelle+Getty+performed+comedy.&srlimit=3&format=json,No relevant evidence was retrieved.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved.""
+}",
+45575,Pirates of the Caribbean was added to Tokyo Disneyland in 1983.,SUPPORTS,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.616,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Pirates+of+the+Caribbean+was+added+to+Tokyo+Disneyland+in+1983.&srlimit=3&format=json,No relevant evidence was retrieved to verify the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved to verify the claim.""
+}",
+29352,Hot Right Now is a DJ Fresh single.,SUPPORTS,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.385,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Hot+Right+Now+is+a+DJ+Fresh+single.&srlimit=3&format=json,No relevant evidence was retrieved.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved.""
+}",
+61195,West Virginia borders Kentucky.,SUPPORTS,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.34,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=West+Virginia+borders+Kentucky.&srlimit=3&format=json,No relevant evidence was retrieved.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved.""
+}",
+6807,"Camden, New Jersey is the home of a school that was founded as the South Jersey Law School in 1926.",SUPPORTS,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.603,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Camden%2C+New+Jersey+is+the+home+of+a+school+that+was+founded+as+the+South+Jersey+Law+School+in+1926.&srlimit=3&format=json,No relevant evidence was retrieved to verify the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved to verify the claim.""
+}",
+54204,"James Jones has been referred to as the ""Champ"".",SUPPORTS,llama3.1:8b,retrieved_evidence,NOT ENOUGH INFO,False,1.645,[],429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=James+Jones+has+been+referred+to+as+the+%22Champ%22.&srlimit=3&format=json,No relevant evidence was retrieved to establish the claim.,"{
+  ""label"": ""NOT ENOUGH INFO"",
+  ""reason"": ""No relevant evidence was retrieved to establish the claim.""
+}",

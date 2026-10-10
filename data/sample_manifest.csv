@@ -1,0 +1,61 @@
+dataset,sample_id,claim,gold_label,gold_evidence
+fever,164991,Polar bears depend on the ocean as their means of travel.,NOT ENOUGH INFO,
+fever,80919,Match Point has been compared to Blue Jasmine.,NOT ENOUGH INFO,
+fever,185787,The latest ceremony of the Logie Awards was broadcast live on the American Nine Network.,NOT ENOUGH INFO,
+fever,157646,"Diana, Princess of Wales's father inherited the title of professor emeritus.",NOT ENOUGH INFO,
+fever,107687,Ten matches were won at SummerSlam.,NOT ENOUGH INFO,
+fever,22003,The Maltese language is an official language of the European Union.,NOT ENOUGH INFO,
+fever,34540,James VI and I began the British colonization of Africa.,NOT ENOUGH INFO,
+fever,200294,The screenplay for Natural Born Killers was heavily revised by writer and director Oliver Stone.,NOT ENOUGH INFO,
+fever,161128,"Kesha was born on March 1st, 1987 in a Pasadena, California.",NOT ENOUGH INFO,
+fever,220281,Bullitt is an English drama and thriller from 1968.,NOT ENOUGH INFO,
+fever,103111,The Winds of Winter is a grave digger.,REFUTES,
+fever,77043,P.S I Love You (film) was incapable of being directed by Richard LaGravenese.,REFUTES,
+fever,25490,"For two years in a row, Josh Hutcherson was in two different films.",REFUTES,
+fever,103545,Annabelle is at The Museum of Natural History.,REFUTES,
+fever,89876,Keegan-Michael Key has yet to play anyone.,REFUTES,
+fever,17031,Reign Over Me was written and directed by Mike Binder in 2001.,REFUTES,
+fever,170423,Michael Vick's maiden name is Dwayne.,REFUTES,
+fever,2531,Dopamine prevents neuromodulation.,REFUTES,
+fever,178341,Al Jardine refuses to play all musical instruments.,REFUTES,
+fever,229312,A working animal is wild only.,REFUTES,
+fever,199732,Tijuana is part of the San Diego -- Tijuana metropolitan area.,SUPPORTS,
+fever,125630,Kellogg's products are marketed in over 180 countries and manufactured in 18.,SUPPORTS,
+fever,203377,Goosebumps (film) was directed by Rob Letterman.,SUPPORTS,
+fever,87337,Turin's Juventus Stadium is the home arena for Juventus F.C.,SUPPORTS,
+fever,183507,Estelle Getty performed comedy.,SUPPORTS,
+fever,45575,Pirates of the Caribbean was added to Tokyo Disneyland in 1983.,SUPPORTS,
+fever,29352,Hot Right Now is a DJ Fresh single.,SUPPORTS,
+fever,61195,West Virginia borders Kentucky.,SUPPORTS,
+fever,6807,"Camden, New Jersey is the home of a school that was founded as the South Jersey Law School in 1926.",SUPPORTS,
+fever,54204,"James Jones has been referred to as the ""Champ"".",SUPPORTS,
+vitaminc,5ebbf32bc9e77c0009295906_2,Surfaces contaminated with SARS-CoV-2 may be disinfected using several solutions during the pandemic .,NOT ENOUGH INFO,"Surfaces may be decontaminated with a number of solutions ( within one minute for a stainless steel surface ) , including 62–71 % ethanol , 50–100 % isopropanol , 0.1 % sodium hypochlorite , 0.5 % hydrogen peroxide , and 0.2–7.5 % povidone-iodine ; benzalkonium chloride and chlorhexidine gluconate are less effective."
+vitaminc,5ee3932bc9e77c0008cca303_3,"More than 531,500 cases of COVID-19 have been reported in over 190 countries and territories after March 26 .",NOT ENOUGH INFO,"As of 26 March , more than 531,000 cases of COVID-19 have been reported in over 190 countries and territories , resulting in approximately 24,000 deaths and more than 123,000 recoveries ."
+vitaminc,5ea2d97bc9e77c0009cda5d9_1,John Ales plays an agent in the film Spy Hard .,NOT ENOUGH INFO,"At headquarters , Steele encounters an old agency nemesis , Norm Coleman ( Barry Bostwick ) , and flirts with the Director 's adoring secretary , Miss Cheevus ( Marcia Gay Harden ) .On the job , Steele is assisted by Kabul ( John Ales ) , who gives him rides in a never-ending variety of specially designed cars ."
+vitaminc,5ec284fcc9e77c0008415d5e_2,The third album of SWMRS was released before 2017 after changing their previous name Drive North .,NOT ENOUGH INFO,"Bassist Sebastian Mueller missed a few shows in 2015 due to college exams and was replaced by drummer Joey Armstrong 's brother , Jakob Armstrong , for a few shows ."
+vitaminc,5ee3949ac9e77c0008ccfdae_1,Between 0.4 and 1 % of endometrial cancer cases occur on the lymph nodes outside the abdomen .,NOT ENOUGH INFO,"Other common recurrence sites are the pelvic lymph nodes , para-aortic lymph nodes , peritoneum ( 28 % of recurrences ) , and lungs , though recurrences can also occur in the brain , liver , adrenal glands , bones , lymph nodes outside the abdomen , abdominal organs , and muscle."
+vitaminc,5ece9461c9e77c000846623d_3,"A taller set of floodlights was installed in the Molineux Stadium for £25,000 in 1957 , just in time for the European Cup games .",NOT ENOUGH INFO,The South Bank Stand terraces was one of the largest goal stands in Britain.
+vitaminc,5ee3932ac9e77c0008cc984e_1,The government of Taiwan donated ICU ventilators to the Czech Republic .,NOT ENOUGH INFO,"On 31 March , Mayor of Prague publicly praised Government of Taiwan for donating respirators to the Czech Republic , while pointing out that all of the equipment from China was purchased , none was donated ."
+vitaminc,5eb29889c9e77c0008d9433f_1,The audience is in the background of the music video Shallow .,NOT ENOUGH INFO,"The video features scenes from the film , where both Gaga and Cooper 's characters performed onstage in front of a large group of audience ."
+vitaminc,5ee393b6c9e77c0008ccbf02_2,"An autopsy confirmed that the man who died on March 18 , in Croatia , succumbed to coronavirus during the pandemic .",NOT ENOUGH INFO,"The first death was confirmed , as the man who had died on 18 March was confirmed to have died due to the virus."
+vitaminc,5ec55989c9e77c000842ba8c_2,Matthew Buckstein had varying levels of success as a contestant in American Idol .,NOT ENOUGH INFO,"Other contestants , such as Hicks , McPhee , Bucky Covington , Mandisa , Kellie Pickler , and Elliott Yamin have had varying levels of success."
+vitaminc,5ee3932cc9e77c0008ccb120_2,Fiji 's first coronavirus case was in Lautoka .,REFUTES,"As of 21 March , Fiji has two cases in Lautoka , Western Division on the island of Viti levu."
+vitaminc,5ec7d50ec9e77c0008442d0a_2,The state of Michoacán is the sixth-largest in Mexico .,REFUTES,"The state has a territory of , making it the sixteenth largest in Mexico ."
+vitaminc,5ed50880c9e77c000848d551_2,Juventus F.C . adopted its characteristic black-and-white-striped home uniform in 1903 .,REFUTES,Juventus F.C . is the second oldest club of its kind still active in the country after Genoa 's football section and has traditionally worn a black and white striped home kit since 1893 .
+vitaminc,5eb29888c9e77c0008d93444_3,Nelly Furtado has sold less than 45 million records worldwide .,REFUTES,"Furtado has sold over 50 million records worldwide , making her one of the most successful Canadian artists ."
+vitaminc,5ed50882c9e77c000848fb23_4,Tinker Tailor Soldier Spy is a film .,REFUTES,Tinker Tailor Soldier Spy won the 2015 MTV Video Music Award for Best Music Video .
+vitaminc,5ee3932ac9e77c0008cc9c51_2,"Less than 34,960 cases of coronavirus had been reported by 8 February 2020 .",REFUTES,"As of 8 February 2020 , 34,964 cases have been confirmed ( 6,106 serious ) , including in every province-level division of China ."
+vitaminc,5ee39419c9e77c0008ccfb32_3,"After 2017 , Bad Romance sold more than 5.7 million copies in the U.S .",REFUTES,"As of April 2016 , `` Bad Romance '' had sold 5,600,000 copies in the United States , according to Nielsen Soundscan , making Gaga the second artist in digital history to have three singles—along with `` Just Dance '' and `` Poker Face '' —pass the five million mark in digital sales ."
+vitaminc,5ec284fbc9e77c00084158d9_3,The Predator grossed more than $ 115.9 million worldwide .,REFUTES,", The Predator has grossed $ 47.6 million in the United States and Canada , and $ 68.2 million in other territories , for a total worldwide gross of $ 115.8 million , against a production and advertisement budget of $ 208 million ."
+vitaminc,5ed50880c9e77c000848d0fc_2,The White House Press Secretary is a Kremlin official .,REFUTES,"The White House Press Secretary is a senior White House official whose primary responsibility is to act as spokesperson for the executive branch of the United States government administration , especially with regard to the President , senior executives , and policies ."
+vitaminc,5ed7ad01c9e77c00084a61ab_3,"Vince Wilfork achieved less than 50 sacks , less than 250 tackles , and less than 15 deflected passes for the Patriots in the 2004 season .",REFUTES,"In his rookie 2004 season with the Patriots , he compiled 78 sacks , 492 tackles , and 37 deflected passes ."
+vitaminc,5ed50881c9e77c000848e270_1,Danger UXB is on a commercial film network in the United Kingdom .,SUPPORTS,"Danger UXB is a 1979 series from a commercial film channel in the UK and it is set during the Second World War developed by John Hawkesworth and starring Anthony Andrews as Lieutenant Brian Ash , an officer in the Royal Engineers ."
+vitaminc,5ed50882c9e77c000848eef7_1,"Guillermo del Toro was born on October 9 , 1964 .",SUPPORTS,"Guillermo del Toro Gómez -LRB- -LSB- ɡiˈʝeɾmo ðel ˈtoɾo -RSB- ; born October 9 , 1964 -RRB- is a Mexican film director , screenwriter , producer , and novelist ."
+vitaminc,5eb29888c9e77c0008d939ba_4,The Equalizer 2 has grossed more than $ 98.2 million in the United States and Canada .,SUPPORTS,", The Equalizer 2 has grossed $ 98.3 million in the United States and Canada , and $ 47.7 million in other territories , for a total worldwide gross of $ 146 million , against a production budget of $ 62 million ."
+vitaminc,5ed50880c9e77c000848d68f_1,Aparshakti Khurana works in Bollywood .,SUPPORTS,"Aparshakti Khurrana is an Indian Bollywood actor , RJ , and TV anchor ."
+vitaminc,5ee3932bc9e77c0008cca2e2_4,There are 58 cases of coronavirus that have been confirmed in Ecuador .,SUPPORTS,"Central and South American passengers stranded on CDMX due to flight cancellation Informador , 16 Mar 2020 58 cases of coronavirus have been confirmed in Ecuador , including a new case in Manta , Manabi ."
+vitaminc,5ed7ad02c9e77c00084a6b78_1,"Before May 11 , See You Again reported less than 23.85 million likes .",SUPPORTS,"As of May 6 , 2019 , it has received over 4.1 billion views and 23.8 million likes , making it the site 's third most viewed and second most liked video ."
+vitaminc,5ec7d50dc9e77c0008441e65_1,Ghanaian cedi monetary unit had the greatest value when it was launched by independent states in Africa .,SUPPORTS,By cutting four digits it became the highest-valued currency unit issued by sovereign countries in Africa at the time of its introduction .
+vitaminc,5eafed80c9e77c0009ce0fff_2,"In the film , Lenora is attempting to complete a trifecta , which involves sleeping with a freshman , alumni and a professor .",SUPPORTS,"While stopping at a diner , the duo encounter Shadia ( Zoey Deutch ) , a former classmate of Jason 's from his photography class , as well as her friends Lenore ( Aubrey Plaza ) who needs to finish her trifecta ( sleep with a freshman , alumni & a professor ) and Bradley ( Jeffrey Bowyer-Chapman ) ."
+vitaminc,5ed50881c9e77c000848e7a1_3,Duff McKagan was a writer .,SUPPORTS,"In addition to his musical career , McKagan has established himself as a writer ."
+vitaminc,5ed50882c9e77c000848eefe_1,The Closer was a cable comedy .,SUPPORTS,"On Monday , July 11 , 2011 , the series began its seventh and final season , having finished its sixth season as cable 's highest-rated comedy ."

@@ -1,0 +1,5 @@
+dataset,model,mode,total_samples,valid_predictions,coverage,accuracy,macro_f1,mean_latency_s
+FEVER,llama3.1:8b,claim_only,30,30,1.0,0.3667,0.2315,1.829
+FEVER,llama3.1:8b,retrieved_evidence,30,30,1.0,0.2667,0.1404,1.843
+FEVER,qwen2.5:7b,claim_only,30,30,1.0,0.3333,0.2507,2.542
+FEVER,qwen2.5:7b,retrieved_evidence,30,30,1.0,0.3333,0.1667,2.374
