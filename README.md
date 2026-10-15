@@ -69,44 +69,55 @@ Adding just **one irrelevant neutral sentence** from the same Wikipedia article:
 
 ```mermaid
 flowchart TD
-    subgraph Data Layer
-        D1[FEVER 150 Frozen Benchmark]
-        D2[FEVER 13,332 Full Dev Set]
-        D3[VitaminC 100 Contrastive Pairs]
-        D4[Adversarial Distractor Injections]
-        D5[Live Wikipedia MediaWiki API]
+    subgraph DataLayer["Data Layer"]
+        D1["FEVER 150 Frozen Benchmark"]
+        D2["FEVER 13,332 Full Dev Set"]
+        D3["VitaminC 100 Contrastive Pairs"]
+        D4["Adversarial Distractor Injections"]
+        D5["Live Wikipedia MediaWiki API"]
     end
 
-    subgraph Pipeline A: Offline 4-Axis Reliability Bench
-        B1[1. Baseline Correctness T=0 Seed=42]
-        B2[2. Stability 5 Runs T=0.2 Multi-Seed]
-        B3[3. Robustness Reorder & Distractor]
-        B4[4. VitaminC Sensitivity Factual Edits]
-        RUNNER[Resumable Atomic Runner with Crash Safety]
+    subgraph PipelineA["Pipeline A: Offline 4-Axis Reliability Bench"]
+        B1["1. Baseline Correctness (T=0, Seed=42)"]
+        B2["2. Stability (5 Runs, T=0.2, Multi-Seed)"]
+        B3["3. Robustness (Reorder & Distractor)"]
+        B4["4. VitaminC Sensitivity (Factual Edits)"]
+        RUNNER["Resumable Atomic Runner with Crash Safety"]
     end
 
-    subgraph Pipeline B: Live RAG Verification Engine
-        R1[Claim Input] --> R2[MediaWiki Search]
-        R2 --> R3[TF-IDF Cosine Sentence Ranker]
-        R3 --> R4[Top-K Passage Assembler]
-        R4 --> R5[Strict Zero-Shot Prompt Framing]
-        R5 --> R6[Local Ollama Inference Engine]
-        R6 --> R7[Deterministic Output Parser]
+    subgraph PipelineB["Pipeline B: Live RAG Verification Engine"]
+        R1["Claim Input"] --> R2["MediaWiki Search"]
+        R2 --> R3["TF-IDF Cosine Sentence Ranker"]
+        R3 --> R4["Top-K Passage Assembler"]
+        R4 --> R5["Strict Zero-Shot Prompt Framing"]
+        R5 --> R6["Local Ollama Inference Engine"]
+        R6 --> R7["Deterministic Output Parser"]
     end
 
-    subgraph Evaluation & Presentation Layer
-        E1[Evaluation API llm_fact_checker.results]
-        E2[Cross-Model Reliability Scorecards]
-        E3[Interactive Streamlit Dashboard app.py]
-        E4[ReportLab Publication PDF Generator]
+    subgraph EvalLayer["Evaluation & Presentation Layer"]
+        E1["Evaluation API (llm_fact_checker.results)"]
+        E2["Cross-Model Reliability Scorecards"]
+        E3["Interactive Streamlit Dashboard (app.py)"]
+        E4["ReportLab Publication PDF Generator"]
     end
 
-    D1 & D2 & D3 & D4 --> RUNNER
-    RUNNER --> B1 & B2 & B3 & B4
-    B1 & B2 & B3 & B4 --> E1
-    D5 --> Pipeline B
-    Pipeline B --> E1
-    E1 --> E2 & E3 & E4
+    D1 --> RUNNER
+    D2 --> RUNNER
+    D3 --> RUNNER
+    D4 --> RUNNER
+    RUNNER --> B1
+    RUNNER --> B2
+    RUNNER --> B3
+    RUNNER --> B4
+    B1 --> E1
+    B2 --> E1
+    B3 --> E1
+    B4 --> E1
+    D5 --> R2
+    R7 --> E1
+    E1 --> E2
+    E1 --> E3
+    E1 --> E4
 ```
 
 ---
