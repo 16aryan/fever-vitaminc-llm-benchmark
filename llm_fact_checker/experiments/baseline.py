@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from collections import Counter
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 import json
 from pathlib import Path
 import platform
@@ -79,7 +79,7 @@ def run_inference(
             "system": SYSTEM_PROMPT,
             "user": "Claim:\n<claim>\n\nEvidence:\n<numbered evidence>",
         },
-        "run_timestamp_utc": datetime.now(UTC).isoformat(),
+        "run_timestamp_utc": datetime.now(timezone.utc).isoformat(),
         "python_version": platform.python_version(),
         "ollama_version": ollama_metadata["version"],
         "ollama_model_metadata": ollama_metadata["model"],
