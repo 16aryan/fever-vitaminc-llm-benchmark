@@ -18,16 +18,18 @@
   ],
   "datasets": {
     "fever": {
-      "path": "data/fever/shared_task_dev.jsonl",
+      "path": "data/fever/processed/fever_baseline_150.jsonl",
+      "fallback_path": "data/fever/full/fever_dev_full.jsonl",
       "format": "jsonl",
       "claim_field": "claim",
-      "label_field": "label",
+      "label_field": "gold_label",
       "id_field": "id",
-      "has_gold_evidence_text": false,
-      "modes": ["claim_only", "retrieved_evidence"]
+      "has_gold_evidence_text": true,
+      "modes": ["claim_only", "gold_evidence", "retrieved_evidence"]
     },
     "vitaminc": {
-      "path": "data/vitaminc/dev.jsonl",
+      "path": "data/vitaminc/raw/vitaminc/test.jsonl",
+      "fallback_path": "data/vitaminc/processed/vitaminc_sensitivity_100_pairs.jsonl",
       "format": "jsonl",
       "claim_field": "claim",
       "label_field": "label",

@@ -14,6 +14,23 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Large Raw Datasets (reproducible via README download instructions)
+# Raw datasets are downloaded separately (several GB). Processed samples are tracked.
+data/fever/raw/
 data/fever/shared_task_dev.jsonl
 data/vitaminc/dev.jsonl
+
+# ... except VitaminC's test.jsonl (tracked so sensitivity runs from a clean clone)
+data/vitaminc/raw/*
+!data/vitaminc/raw/vitaminc/
+data/vitaminc/raw/vitaminc/*
+!data/vitaminc/raw/vitaminc/test.jsonl
+
+# Whole-set generated perturbed inputs
+data/fever/full/prepared/
+
+# Whole-dataset runs (*_full): commit the metrics, reports and configs, not the multi-megabyte per-case predictions
+results/*/*/*_full/predictions.jsonl
+results/*/*/*_full/predictions.partial.jsonl
+results/*/*/*_full/predictions/
+results/*/*/*_full/runs/
+results/*/*/*_full/smoke/

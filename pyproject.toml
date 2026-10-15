@@ -1,0 +1,56 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "llm_fact_checker"
+version = "1.0.0"
+description = "Production-grade reliability test bench and RAG fact-verification framework for LLMs (FEVER, VitaminC, Qwen 2.5, Llama 3.1/3.2, Phi-4 Mini)"
+authors = [
+  { name = "Aryan Goel", email = "aryangoel@users.noreply.github.com" },
+]
+readme = "README.md"
+requires-python = ">=3.10"
+# The experiment execution engine is standard-library pure, while rich dependencies power the RAG, dashboard, and analysis suites.
+dependencies = [
+    "requests>=2.31.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "scikit-learn>=1.3.0",
+    "matplotlib>=3.8.0",
+    "seaborn>=0.13.0",
+    "tqdm>=4.66.0",
+]
+
+[project.scripts]
+factcheck = "llm_fact_checker.cli:main"
+
+[dependency-groups]
+dev = [
+    "ruff",
+]
+demo = [
+    "streamlit>=1.35.0",
+    "plotly>=5.20.0",
+]
+report = [
+    "reportlab>=4.0.0",
+]
+notebooks = [
+    "jupyterlab>=4.0.0",
+]
+
+[tool.uv]
+default-groups = ["dev", "demo", "report", "notebooks"]
+
+[tool.ruff]
+line-length = 99
+src = ["llm_fact_checker", "src", "scripts"]
+include = ["pyproject.toml", "llm_fact_checker/**/*.py", "src/**/*.py", "scripts/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["llm_fact_checker"]
+force-sort-within-sections = true

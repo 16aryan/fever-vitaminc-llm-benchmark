@@ -26,6 +26,11 @@ def main() -> None:
 
     config = load_config(args.config)
     preds_path = Path(args.predictions or config["paths"]["predictions"])
+    if not preds_path.exists():
+        fallback = Path("results/fever_predictions.csv")
+        if fallback.exists():
+            preds_path = fallback
+
     error_out_path = Path(config["paths"]["error_analysis"])
     error_out_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -52,6 +57,11 @@ def main() -> None:
         if gold == "REFUTES" and pred == "SUPPORTS":
             return "FALSE_SUPPORT"
         return "OTHER_MISMATCH"
+
+    if "dataset" not in df.columns:
+        df["dataset"] = "FEVER"
+    if "sample_id" not in df.columns:
+        df["sample_id"] = df["id"] if "id" in df.columns else df.index
 
     df["error_category"] = df.apply(classify_error, axis=1)
 

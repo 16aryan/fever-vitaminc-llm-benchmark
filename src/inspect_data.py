@@ -32,12 +32,17 @@ def inspect_jsonl(path: Path) -> List[Dict[str, Any]]:
 
 def inspect_dataset(name: str, meta: Dict[str, Any]) -> None:
     data_path = Path(meta["path"])
+    if not data_path.exists() and "fallback_path" in meta:
+        fallback = Path(meta["fallback_path"])
+        if fallback.exists():
+            data_path = fallback
+
     print(f"\n{'='*20} Inspecting: {name.upper()} {'='*20}")
     print(f"Path: {data_path.resolve()}")
 
     if not data_path.exists():
         print(f"❌ File NOT found: {data_path}")
-        print("Please download the dataset file first.")
+        print("Please check dataset file path.")
         return
 
     records = inspect_jsonl(data_path)
@@ -58,8 +63,13 @@ def inspect_dataset(name: str, meta: Dict[str, Any]) -> None:
         print(f"⚠️ Warning: Configured claim field '{claim_col}' not found!")
 
     label_col = meta.get("label_field", "label")
+    if label_col not in df.columns and "gold_label" in df.columns:
+        label_col = "gold_label"
+    elif label_col not in df.columns and "label" in df.columns:
+        label_col = "label"
+
     if label_col in df.columns:
-        print("\nLabel distribution:")
+        print(f"\nLabel distribution (field: '{label_col}'):")
         print(df[label_col].value_counts(dropna=False).to_string())
     else:
         print(f"⚠️ Warning: Configured label field '{label_col}' not found!")
