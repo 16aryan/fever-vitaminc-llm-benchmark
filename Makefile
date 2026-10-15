@@ -10,13 +10,13 @@ test:
 
 ## Check formatting and lint
 lint:
-	python3 -m ruff format --check
-	python3 -m ruff check
+	python3 -m ruff format --check llm_fact_checker
+	python3 -m ruff check llm_fact_checker
 
 ## Apply formatting and lint fixes
 format:
-	python3 -m ruff check --fix
-	python3 -m ruff format
+	python3 -m ruff check --fix llm_fact_checker
+	python3 -m ruff format llm_fact_checker
 
 ## Generate and display cross-model benchmark scorecard
 scorecard:

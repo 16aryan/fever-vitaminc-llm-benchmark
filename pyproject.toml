@@ -45,8 +45,8 @@ default-groups = ["dev", "demo", "report", "notebooks"]
 
 [tool.ruff]
 line-length = 99
-src = ["llm_fact_checker", "src", "scripts"]
-include = ["pyproject.toml", "llm_fact_checker/**/*.py", "src/**/*.py", "scripts/**/*.py"]
+src = ["llm_fact_checker"]
+include = ["pyproject.toml", "llm_fact_checker/**/*.py"]
 
 [tool.ruff.lint]
 extend-select = ["I"]

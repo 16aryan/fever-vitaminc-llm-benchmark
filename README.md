@@ -1,5 +1,6 @@
 # Evidence-Grounded LLM Fact-Verification & Reliability Test Bench
 
+[![CI Pipeline](https://github.com/16aryan/fever-vitaminc-llm-benchmark/actions/workflows/ci.yml/badge.svg)](https://github.com/16aryan/fever-vitaminc-llm-benchmark/actions/workflows/ci.yml)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue.svg)](https://www.python.org/)
 [![Tests Passing](https://img.shields.io/badge/tests-162%2F162%20passing-brightgreen.svg)](tests/)
 [![Inference Engine](https://img.shields.io/badge/inference-Ollama%20Local-orange.svg)](https://ollama.com/)
