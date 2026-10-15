@@ -162,6 +162,7 @@ def _all(args: argparse.Namespace) -> None:
 
 def _scorecard(args: argparse.Namespace) -> None:
     from scripts.compare_models import generate_scorecard_data, print_markdown_scorecard
+
     rows = generate_scorecard_data()
     md = print_markdown_scorecard(rows)
     if getattr(args, "save_markdown", None):
@@ -172,6 +173,7 @@ def _scorecard(args: argparse.Namespace) -> None:
 def _report(args: argparse.Namespace) -> None:
     import subprocess
     import sys
+
     script = Path(__file__).resolve().parent.parent / "src" / "generate_pdf_report.py"
     if not script.exists():
         print(f"Report script not found at {script}")
@@ -186,15 +188,17 @@ def _report(args: argparse.Namespace) -> None:
 
 def _rag(args: argparse.Namespace) -> None:
     import sys
+
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
     from src.retrieve_evidence import load_cache, retrieve_evidence, save_cache
+
     from llm_fact_checker.ollama import OllamaClient
     from llm_fact_checker.prompts import SYSTEM_PROMPT, parse_prediction
 
     claim = args.claim
     cache_path = Path("data/wiki_cache.json")
     cache = load_cache(cache_path)
-    print(f"\n[RAG] Searching Wikipedia for claim: \"{claim}\"")
+    print(f'\n[RAG] Searching Wikipedia for claim: "{claim}"')
     evidence_items = retrieve_evidence(claim, cache, top_k=args.top_k)
     save_cache(cache, cache_path)
 
@@ -222,20 +226,21 @@ def _rag(args: argparse.Namespace) -> None:
             seed=42,
         )
         parsed = parse_prediction(raw)
-        print(f"\n==========================================")
+        print("\n==========================================")
         print(f"VERDICT: {parsed or 'INVALID / UNPARSED'}")
         print(f"RAW MODEL OUTPUT: {raw.strip()}")
-        print(f"==========================================")
-    except Exception as exc:
+        print("==========================================")
+    except Exception as exc:  # noqa: BLE001
         print(f"[ERROR]: {exc}")
 
 
 def _demo(args: argparse.Namespace) -> None:
     import subprocess
+
     app_path = Path(__file__).resolve().parent.parent / "app.py"
     port = getattr(args, "port", 8501)
     print(f"Launching Streamlit Fact-Checking Dashboard on http://localhost:{port}...")
-    subprocess.run(["streamlit", "run", str(app_path), "--server.port", str(port)])
+    subprocess.run(["streamlit", "run", str(app_path), "--server.port", str(port)], check=False)
 
 
 def _add_model(parser: argparse.ArgumentParser) -> None:
@@ -400,11 +405,14 @@ def build_parser() -> argparse.ArgumentParser:
 
     # Live RAG fact-verification
     rag = subparsers.add_parser(
-        "rag", help="verify a natural language claim using live Wikipedia retrieval + TF-IDF ranking"
+        "rag",
+        help="verify a natural language claim using live Wikipedia retrieval + TF-IDF ranking",
     )
     rag.add_argument("--claim", required=True, help="the natural language claim to verify")
     _add_model(rag)
-    rag.add_argument("--top-k", type=int, default=3, help="number of top evidence sentences to retrieve")
+    rag.add_argument(
+        "--top-k", type=int, default=3, help="number of top evidence sentences to retrieve"
+    )
     rag.add_argument("--ollama-url", default=OLLAMA_URL)
     rag.set_defaults(function=_rag)
 
